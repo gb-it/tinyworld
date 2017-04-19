@@ -1,0 +1,5 @@
+INSERT INTO "tinyworld.tinydb::tinyf.world" VALUES ('Europe');
+INSERT INTO "tinyworld.tinydb::tinyf.world" VALUES ('Asia');
+INSERT INTO "tinyworld.tinydb::tinyf.country" VALUES ('Spain', 'Europe');
+INSERT INTO "tinyworld.tinydb::tinyf.country" VALUES ('Japan', 'Asia');
+INSERT INTO "tinyworld.tinydb::tinyf.country" VALUES ('Denmark', 'Europe');

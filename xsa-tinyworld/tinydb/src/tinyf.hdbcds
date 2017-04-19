@@ -1,0 +1,16 @@
+namespace tinyworld.tinydb; 
+context tinyf {
+ 
+  entity world {
+    key continent: String(100);
+
+  };
+
+entity country{
+ name : String(100);
+part_of : Association[0..1] to world;
+};
+
+
+};
+
